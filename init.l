@@ -1,11 +1,14 @@
 %{
 #include "init.tab.h"
+extern yylval;
 %}
 %%
 #%Py {return PYSTART;}
-#%C {return CSTART;}
-#% {return END;}
-. {return CODE;};
+#%Rb {return RSTART;}
+%# {return END;}
+. {yylval = *yytext;return CODE;}
+\n {yylval = (int)yytext;return NL;}
+\n\n {return;};
 %%
 
 int yywrap(){

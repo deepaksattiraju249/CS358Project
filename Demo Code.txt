@@ -1,0 +1,14 @@
+#%Py
+a =10
+print a
+print "From Python\n"
+%#
+#%Rb
+puts "\nFrom Ruby\n"
+a = a + 12
+puts "#{a}"
+%#
+#%Py
+a = 0
+print "This is from Python 2nd time", a
+%#

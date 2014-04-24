@@ -1,0 +1,8 @@
+10
+From Python
+
+
+From Ruby
+22
+Enter code
+1Valid syntaxThis is from Python 2nd time 0

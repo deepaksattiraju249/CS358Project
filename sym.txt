@@ -1,0 +1,11 @@
+int:a:0:
+int:number_of_variables:7:
+file:f:<open file 'sym.txt', mode 'w' at 0x7f9f22ddf420>:
+module:__builtins__:<module '__builtin__' (built-in)>:
+str:__file__:1.py:
+int:counter:3:
+NoneType:__package__:None:
+str:variables_values:int:
+str:__name__:__main__:
+list:line:['str', '__name__', '__main__', '\n']:
+NoneType:__doc__:None:
